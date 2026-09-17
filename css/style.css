@@ -3,8 +3,8 @@
 @media(max-width:900px){.nav{gap:15px}.hero-grid,.two-col,.territory-grid,.contact-grid{grid-template-columns:1fr}.cards.four{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.hero-grid{padding:55px 0}.hero-visual{max-width:600px;margin:auto}.floating-card{left:10px}.section-heading{display:block}.section-heading p{margin-top:15px}.contact-grid{gap:40px}}
 @media(max-width:680px){.container{width:min(100% - 30px,1180px)}.site-header{position:sticky}.menu-toggle{display:block}.nav{display:none;position:absolute;left:0;right:0;top:82px;background:var(--creme);padding:20px 15px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line);box-shadow:0 20px 30px rgba(18,63,45,.08)}.nav.open{display:flex}.nav a{text-align:center;padding:8px}.nav .btn{margin-top:5px}.brand img{width:160px}.hero h1,h1{font-size:45px}.hero-grid{gap:45px}.stats{justify-content:space-between}.stats>div{padding:0 12px}.cards.four,.cards.three,.feature-box,.personality-grid{grid-template-columns:1fr}.section{padding:75px 0}.page-hero{padding:80px 0}.contact-form{grid-template-columns:1fr;padding:28px 22px}.contact-form label{grid-column:1/-1}.footer-grid{grid-template-columns:1fr 1fr;gap:35px}.footer-brand{grid-column:1/-1}.footer-bottom{display:block}.footer-bottom span{display:block;margin-bottom:8px}.cta-inner{display:block}.cta-inner .btn{margin-top:25px}.floating-card{position:relative;left:0;bottom:auto;margin-top:-25px;margin-left:15px}.hero-image-frame{aspect-ratio:1/1}.territory-image{aspect-ratio:16/10}}
 
-/* Keep the circular logo fully inside compact header and footer areas. */
-.brand img{width:112px;height:64px;object-fit:contain;border-radius:50%;clip-path:circle(48%)}
-.footer-brand img{width:150px;height:110px;object-fit:contain;border-radius:50%;clip-path:circle(48%)}
+/* Keep the supplied transparent logo fully visible in header and footer. */
+.brand img{width:150px;height:76px;object-fit:contain}
+.footer-brand img{width:180px;height:140px;object-fit:contain}
 
-@media(max-width:680px){.brand img{width:100px;height:58px}.footer-brand img{width:140px;height:100px}}
+@media(max-width:680px){.brand img{width:126px;height:68px}.footer-brand img{width:160px;height:120px}}

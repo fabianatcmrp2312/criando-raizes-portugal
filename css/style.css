@@ -5,6 +5,6 @@
 
 /* Keep the supplied transparent logo fully visible in header and footer. */
 .brand img{width:150px;height:76px;object-fit:contain}
-.footer-brand img{width:180px;height:140px;object-fit:contain}
+.footer-brand img{width:180px;height:140px;object-fit:contain;filter:none}
 
-@media(max-width:680px){.brand img{width:126px;height:68px}.footer-brand img{width:160px;height:120px}}
+@media(max-width:680px){.brand img{width:126px;height:68px}.footer-brand img{width:160px;height:120px;filter:none}}
